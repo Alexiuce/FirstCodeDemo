@@ -6,6 +6,6 @@ target 'Example' do
   use_frameworks!
 
   # Pods for Example
-pod 'FirstCodeKit/Dictionary-Extension', :path => '../'
+pod 'FirstCodeKit', :path => '../'
 
 end
