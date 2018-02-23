@@ -15,8 +15,14 @@
     "git": "",
     "tag": "0.0.1"
   },
-  "source_files": [
-    "Classes",
-    "Classes/**/*"
+  "subspecs": [
+    {
+      "name": "Dictionary-Extension",
+      "source_files": "Classes/Extension/Dictionary-Extension/**/*"
+    },
+    {
+      "name": "String-Extension",
+      "source_files": "Classes/Extension/String-Extension/**/*"
+    }
   ]
 }

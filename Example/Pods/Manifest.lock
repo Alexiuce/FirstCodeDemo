@@ -1,16 +1,16 @@
 PODS:
-  - FirstCodeKit (0.0.1)
+  - FirstCodeKit/Dictionary-Extension (0.0.1)
 
 DEPENDENCIES:
-  - FirstCodeKit (from `../`)
+  - FirstCodeKit/Dictionary-Extension (from `../`)
 
 EXTERNAL SOURCES:
   FirstCodeKit:
     :path: ../
 
 SPEC CHECKSUMS:
-  FirstCodeKit: a5fc7a2b1251721f7b0f0aabc51e337bba025d68
+  FirstCodeKit: 1ab42044d0b61cbec978af7c23765495dc09e43c
 
-PODFILE CHECKSUM: 5d4acb35b2ff80228351afe322763be7ae2653c3
+PODFILE CHECKSUM: 2fc27f73ff0d72ccec6dab68d811f0dc8c485f33
 
 COCOAPODS: 1.4.0.rc.1
