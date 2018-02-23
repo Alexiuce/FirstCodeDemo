@@ -28,7 +28,7 @@ class ToolBarView: NSView {
         print("after load nib")
         view.frame = bounds
         self.addSubview(view)
-        
+    
         guard let views = pointer.pointee else { return  }
         for view in views {
             guard let v = view as? NSView else {continue}
