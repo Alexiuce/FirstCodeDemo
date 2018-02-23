@@ -1,0 +1,16 @@
+PODS:
+  - FirstCodeKit (0.0.1)
+
+DEPENDENCIES:
+  - FirstCodeKit (from `../`)
+
+EXTERNAL SOURCES:
+  FirstCodeKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FirstCodeKit: a5fc7a2b1251721f7b0f0aabc51e337bba025d68
+
+PODFILE CHECKSUM: 5d4acb35b2ff80228351afe322763be7ae2653c3
+
+COCOAPODS: 1.4.0.rc.1

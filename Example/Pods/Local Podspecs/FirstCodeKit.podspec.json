@@ -1,0 +1,22 @@
+{
+  "name": "FirstCodeKit",
+  "version": "0.0.1",
+  "summary": "FirstCodeKit.",
+  "description": "A short description of FirstCodeKit.",
+  "homepage": "http://EXAMPLE/FirstCodeKit",
+  "license": "MIT",
+  "authors": {
+    "Alexiuce": "alexiuce@qq.com"
+  },
+  "platforms": {
+    "osx": "10.12"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*"
+  ]
+}
