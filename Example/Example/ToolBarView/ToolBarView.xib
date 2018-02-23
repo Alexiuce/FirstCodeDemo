@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13529"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,37 +20,37 @@
                 <visualEffectView blendingMode="behindWindow" material="appearanceBased" state="followsWindowActiveState" translatesAutoresizingMaskIntoConstraints="NO" id="EdY-jW-iMQ">
                     <rect key="frame" x="0.0" y="0.0" width="480" height="52"/>
                 </visualEffectView>
-                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RUq-XN-PaT" propertyAccessControl="all">
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RUq-XN-PaT">
                     <rect key="frame" x="0.0" y="10" width="96" height="32"/>
-                    <buttonCell key="cell" type="bevel" title="one" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="pKw-10-1Lf">
+                    <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="toolbar_emoticon_normal" imagePosition="overlaps" alignment="center" alternateImage="toolbar_emoticon_down" imageScaling="proportionallyDown" inset="2" id="pKw-10-1Lf">
                         <behavior key="behavior" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                 </button>
-                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7mw-2H-ly1" propertyAccessControl="all">
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7mw-2H-ly1">
                     <rect key="frame" x="96" y="10" width="96" height="32"/>
-                    <buttonCell key="cell" type="bevel" title="two" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="2of-X3-04k">
+                    <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="toolbar_files_normal" imagePosition="overlaps" alignment="center" alternateImage="toolbar_files_down" imageScaling="proportionallyDown" inset="2" id="2of-X3-04k">
                         <behavior key="behavior" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                 </button>
-                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="L62-tp-tT0" propertyAccessControl="all">
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="L62-tp-tT0">
                     <rect key="frame" x="192" y="10" width="96" height="32"/>
-                    <buttonCell key="cell" type="bevel" title="three" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="J5L-gP-2NN">
+                    <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="toolbar_history_normal" imagePosition="overlaps" alignment="center" alternateImage="toolbar_history_down" imageScaling="proportionallyDown" inset="2" id="J5L-gP-2NN">
                         <behavior key="behavior" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                 </button>
-                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Y8W-ud-q9Z" propertyAccessControl="all">
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Y8W-ud-q9Z">
                     <rect key="frame" x="288" y="10" width="96" height="32"/>
-                    <buttonCell key="cell" type="bevel" title="four" bezelStyle="regularSquare" alignment="center" imageScaling="proportionallyDown" inset="2" id="ZFj-ew-9Yz">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                    <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="toolbar_phone_normal" imagePosition="overlaps" alignment="center" alternateImage="toolbar_phone_down" imageScaling="proportionallyDown" inset="2" id="ZFj-ew-9Yz">
+                        <behavior key="behavior" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                 </button>
-                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lPV-ft-3P3" propertyAccessControl="all">
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lPV-ft-3P3">
                     <rect key="frame" x="384" y="10" width="96" height="32"/>
-                    <buttonCell key="cell" type="bevel" title="five" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="MFg-n3-DbP">
+                    <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="toolbar_screenCapture_normal" imagePosition="overlaps" alignment="center" alternateImage="toolbar_screenCapture_down" imageScaling="proportionallyDown" inset="2" id="MFg-n3-DbP">
                         <behavior key="behavior" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -100,4 +100,16 @@
             <point key="canvasLocation" x="5" y="185"/>
         </customView>
     </objects>
+    <resources>
+        <image name="toolbar_emoticon_down" width="24" height="24"/>
+        <image name="toolbar_emoticon_normal" width="24" height="24"/>
+        <image name="toolbar_files_down" width="24" height="24"/>
+        <image name="toolbar_files_normal" width="24" height="24"/>
+        <image name="toolbar_history_down" width="24" height="24"/>
+        <image name="toolbar_history_normal" width="24" height="24"/>
+        <image name="toolbar_phone_down" width="24" height="24"/>
+        <image name="toolbar_phone_normal" width="24" height="24"/>
+        <image name="toolbar_screenCapture_down" width="24" height="24"/>
+        <image name="toolbar_screenCapture_normal" width="24" height="24"/>
+    </resources>
 </document>
