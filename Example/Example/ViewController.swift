@@ -16,20 +16,16 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         let str = "Hello World"
-//        let str1 = str.xc_remove("work")
-
-        
         let base64Str = str.xc_base64Encode()
         print("endocde: " + base64Str)
         let decodeStr = "YWJjCg==".xc_base64Decode()
         print("decode: " + decodeStr)
+        
+        let dict = ["name":"job","age": 19,"location":"NY"] as [String : Any]
+        
+        dict.xc_jsonString()
     }
 
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
 
 
 }
