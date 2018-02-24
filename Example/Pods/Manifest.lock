@@ -2,8 +2,10 @@ PODS:
   - FirstCodeKit (0.0.1):
     - FirstCodeKit/Dictionary-Extension (= 0.0.1)
     - FirstCodeKit/String-Extension (= 0.0.1)
+    - FirstCodeKit/ToolBarView (= 0.0.1)
   - FirstCodeKit/Dictionary-Extension (0.0.1)
   - FirstCodeKit/String-Extension (0.0.1)
+  - FirstCodeKit/ToolBarView (0.0.1)
 
 DEPENDENCIES:
   - FirstCodeKit (from `../`)
@@ -13,7 +15,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FirstCodeKit: 1ab42044d0b61cbec978af7c23765495dc09e43c
+  FirstCodeKit: 1b2218e22ed9c385b56fcc635ad6607cb9273878
 
 PODFILE CHECKSUM: 5d4acb35b2ff80228351afe322763be7ae2653c3
 

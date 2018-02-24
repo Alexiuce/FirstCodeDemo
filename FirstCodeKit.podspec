@@ -98,6 +98,14 @@ Pod::Spec.new do |s|
   s.subspec 'String-Extension' do |ss|
      ss.source_files = 'Classes/Extension/String-Extension/**/*'
   end
+
+  s.subspec 'ToolBarView' do |st|
+      st.source_files = 'Classes/ToolBarView/**/*'
+      st.resource_bundles = {
+              'ToolBarView' => ['Assets/ToolBar/*.png']
+          }
+
+  end
 #  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -115,6 +123,8 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
+
+  
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
