@@ -269,6 +269,7 @@
 				INFOPLIST_FILE = SDynamicLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = alexiuce.SDynamicLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -293,6 +294,7 @@
 				INFOPLIST_FILE = SDynamicLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = alexiuce.SDynamicLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
