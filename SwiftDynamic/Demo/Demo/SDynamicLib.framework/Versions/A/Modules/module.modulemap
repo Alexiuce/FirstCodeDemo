@@ -1,0 +1,11 @@
+framework module SDynamicLib {
+  umbrella header "SDynamicLib.h"
+
+  export *
+  module * { export * }
+}
+
+module SDynamicLib.Swift {
+    header "SDynamicLib-Swift.h"
+    requires objc
+}
